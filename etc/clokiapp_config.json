@@ -1,0 +1,35 @@
+{
+  "database_data": {
+    "help": "Settings for CH Database (data)",
+    "host": "localhost",
+    "name": "cloki",
+    "node": "DE7 Node",
+    "pass": "password",
+    "user": "default",
+    "dbTime": 5,
+    "bufferSize": 40000,
+    "dbBulk": 400
+  },
+  "http_settings": {
+    "help": "Settings for the HEPIC Webapp Server",
+    "host": "0.0.0.0",
+    "port" : 3200,
+    "debug" : false
+  },
+  "https_settings": {
+    "help": "SSL settings for HEPIC Webapp Server",
+    "enable": false,
+    "host": "0.0.0.0",
+    "port": 443,
+    "cert": "/usr/local/hepic/tls/cert.pem",
+    "key": "/usr/local/hepic/tls/key.pem"
+  },
+  "system_settings": {
+    "help": "Settings for HOMER logs",
+    "logpath": "/usr/local/cloki/log",
+    "logname": "cloki.log",
+    "_loglevels": "can be: fatal, error, warn, info, debug, trace",
+    "loglevel": "debug",
+    "logstdout": false
+  }
+}
