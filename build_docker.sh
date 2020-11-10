@@ -9,10 +9,10 @@
 #    REPO     = default image respository/name
 #    TAG      = defailt image tag (server)
 
-REPO=${REPO:-sipcapture/webapp}
+REPO=${REPO:-sipcapture/cloki-go}
 TAG=${TAG:-latest}
 
-echo "Building HEPIC docker ..."
+echo "Building Cloki docker ..."
 docker build -t $REPO:$TAG .
 if [ ! -z "$PUSH" ]; then
   echo "Pushing $REPO:$TAG ..."
