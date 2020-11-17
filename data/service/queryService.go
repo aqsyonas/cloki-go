@@ -2,14 +2,15 @@ package service
 
 import (
 	"fmt"
-	"github.com/Jeffail/gabs/v2"
-	"github.com/sirupsen/logrus"
-	"gitlab.com/qxip/cloki/model"
-	"gitlab.com/qxip/cloki/utils/heputils"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/Jeffail/gabs/v2"
+	"github.com/qxip/cloki-go/model"
+	"github.com/qxip/cloki-go/utils/heputils"
+	"github.com/sirupsen/logrus"
 )
 
 type QueryService struct {

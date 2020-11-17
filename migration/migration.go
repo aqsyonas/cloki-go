@@ -9,8 +9,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/sirupsen/logrus"
 
-	"gitlab.com/qxip/cloki/model"
-	"gitlab.com/qxip/cloki/utils/heputils"
+	"github.com/qxip/cloki-go/model"
+	"github.com/qxip/cloki-go/utils/heputils"
 )
 
 type RollesTable struct {

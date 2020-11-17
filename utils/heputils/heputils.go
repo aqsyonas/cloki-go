@@ -2,10 +2,11 @@ package heputils
 
 import (
 	"fmt"
-	"github.com/valyala/bytebufferpool"
-	"gitlab.com/qxip/cloki/model"
 	"strconv"
 	"time"
+
+	"github.com/qxip/cloki-go/model"
+	"github.com/valyala/bytebufferpool"
 )
 
 type Color string

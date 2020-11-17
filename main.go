@@ -31,13 +31,14 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/patrickmn/go-cache"
-	"gitlab.com/qxip/cloki/migration"
-	"gitlab.com/qxip/cloki/migration/jsonschema"
-	"gitlab.com/qxip/cloki/utils/heputils"
-	"gitlab.com/qxip/cloki/utils/logger"
 	"net/http"
 	"time"
+
+	"github.com/patrickmn/go-cache"
+	"github.com/qxip/cloki-go/migration"
+	"github.com/qxip/cloki-go/migration/jsonschema"
+	"github.com/qxip/cloki-go/utils/heputils"
+	"github.com/qxip/cloki-go/utils/logger"
 
 	"os"
 
@@ -47,9 +48,9 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
+	apirouterv1 "github.com/qxip/cloki-go/router/v1"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	apirouterv1 "gitlab.com/qxip/cloki/router/v1"
 	"gopkg.in/go-playground/validator.v9"
 )
 

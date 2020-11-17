@@ -1,13 +1,14 @@
 package apirouterv1
 
 import (
+	"time"
+
 	"github.com/jmoiron/sqlx"
 	"github.com/labstack/echo/v4"
 	"github.com/patrickmn/go-cache"
-	controllerv1 "gitlab.com/qxip/cloki/controller/v1"
-	"gitlab.com/qxip/cloki/data/service"
-	"gitlab.com/qxip/cloki/model"
-	"time"
+	controllerv1 "github.com/qxip/cloki-go/controller/v1"
+	"github.com/qxip/cloki-go/data/service"
+	"github.com/qxip/cloki-go/model"
 )
 
 func RoutePushApis(acc *echo.Group, dataSession *sqlx.DB, goCache *cache.Cache, dbTime, bufferSize, dbBulk int) {

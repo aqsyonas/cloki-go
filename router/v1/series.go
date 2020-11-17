@@ -3,8 +3,8 @@ package apirouterv1
 import (
 	"github.com/jmoiron/sqlx"
 	"github.com/labstack/echo/v4"
-	controllerv1 "gitlab.com/qxip/cloki/controller/v1"
-	"gitlab.com/qxip/cloki/data/service"
+	controllerv1 "github.com/qxip/cloki-go/controller/v1"
+	"github.com/qxip/cloki-go/data/service"
 )
 
 func RouteSeriesApis(acc *echo.Group, dataSession *sqlx.DB) {

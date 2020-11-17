@@ -1,10 +1,11 @@
 package controllerv1
 
 import (
-	"github.com/labstack/echo/v4"
-	"gitlab.com/qxip/cloki/data/service"
-	httpresponse "gitlab.com/qxip/cloki/network/response"
 	"net/http"
+
+	"github.com/labstack/echo/v4"
+	"github.com/qxip/cloki-go/data/service"
+	httpresponse "github.com/qxip/cloki-go/network/response"
 )
 
 type SeriesController struct {

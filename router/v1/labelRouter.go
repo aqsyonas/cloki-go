@@ -4,8 +4,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/labstack/echo/v4"
 	"github.com/patrickmn/go-cache"
-	controllerv1 "gitlab.com/qxip/cloki/controller/v1"
-	"gitlab.com/qxip/cloki/data/service"
+	controllerv1 "github.com/qxip/cloki-go/controller/v1"
+	"github.com/qxip/cloki-go/data/service"
 )
 
 func RouteLabelApis(acc *echo.Group, dataSession *sqlx.DB, goCache *cache.Cache) {

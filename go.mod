@@ -1,4 +1,4 @@
-module gitlab.com/qxip/cloki
+module github.com/qxip/cloki-go
 
 go 1.15
 

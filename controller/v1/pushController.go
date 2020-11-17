@@ -6,10 +6,10 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/sirupsen/logrus"
 
-	"gitlab.com/qxip/cloki/data/service"
-	"gitlab.com/qxip/cloki/model"
-	httpresponse "gitlab.com/qxip/cloki/network/response"
-	"gitlab.com/qxip/cloki/system/webmessages"
+	"github.com/qxip/cloki-go/data/service"
+	"github.com/qxip/cloki-go/model"
+	httpresponse "github.com/qxip/cloki-go/network/response"
+	"github.com/qxip/cloki-go/system/webmessages"
 )
 
 type PushController struct {

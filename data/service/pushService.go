@@ -3,17 +3,18 @@ package service
 import (
 	"database/sql"
 	"fmt"
-	"github.com/Jeffail/gabs/v2"
-	"github.com/patrickmn/go-cache"
-	"github.com/sirupsen/logrus"
-	"github.com/valyala/bytebufferpool"
-	"gitlab.com/qxip/cloki/model"
-	"gitlab.com/qxip/cloki/utils/heputils"
-	"gitlab.com/qxip/cloki/utils/logger/function"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/Jeffail/gabs/v2"
+	"github.com/patrickmn/go-cache"
+	"github.com/qxip/cloki-go/model"
+	"github.com/qxip/cloki-go/utils/heputils"
+	"github.com/qxip/cloki-go/utils/logger/function"
+	"github.com/sirupsen/logrus"
+	"github.com/valyala/bytebufferpool"
 )
 
 type PushService struct {

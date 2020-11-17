@@ -1,6 +1,6 @@
 package heputils
 
-import "gitlab.com/qxip/cloki/model"
+import "github.com/qxip/cloki-go/model"
 
 var (
 	offset64      uint64 = 14695981039346656037
