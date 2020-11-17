@@ -58,7 +58,7 @@ To initialize the database and tables required by the application use the follow
 
 ###### Create User
 ```
-./cloki-webapp -create-cloki-user -database-root=default -database-host=localhost -database-root-password=postgres
+./cloki-go -create-cloki-user -database-root=default -database-host=localhost -database-root-password=password
 ```
 
 ###### Create CLOKI DBs
