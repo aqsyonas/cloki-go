@@ -93,7 +93,9 @@ WEBAPPLOGNAME - prefix name of the log
 ----
 
 #### License & Copyright
-This project is released under the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
+This project is released under the MIT License
+
+Copyright (c) 2020 QXIP B.V.
 
 #### Made by Humans
 This Open-Source project is made possible by actual Humans without corporate sponsors, angels or patreons.<br>
