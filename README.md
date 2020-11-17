@@ -95,8 +95,6 @@ WEBAPPLOGNAME - prefix name of the log
 #### License & Copyright
 This project is released under the Apache License 2.0
 
-Copyright (c) 2020 QXIP B.V.
-
 #### Made by Humans
 This Open-Source project is made possible by actual Humans without corporate sponsors, angels or patreons.<br>
 If you use this software in production, please consider supporting its development with contributions or [donations](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=donation%40sipcapture%2eorg&lc=US&item_name=SIPCAPTURE&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
