@@ -74,3 +74,8 @@ func PartTime(gTime string) int64 {
 	sec := time.Duration(parseTime) * time.Nanosecond
 	return int64(sec.Milliseconds())
 }
+
+func GetSeconds(gTime string) int {
+	parseTime, _ := strconv.Atoi(gTime)
+	return parseTime / 1000000000
+}

@@ -204,7 +204,7 @@ func (ps *PushService) ReloadFingerprints() error {
 	//timeSeries := []model.TableTimeSeries{}
 	rows, err := ps.Session.Queryx("SELECT DISTINCT fingerprint, labels FROM time_series") // (*sql.Rows, error)
 	if err != nil {
-		logrus.Error("couldn't select alias data: ", err.Error())
+		logrus.Error("couldn't query data: ", err.Error())
 	}
 
 	defer rows.Close()
